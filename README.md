@@ -1,3 +1,5 @@
+# Breve descrição do problema
+
 Uma empresa deseja automatizar o processamento de seus contratos. O processamento de
 um contrato consiste em gerar as parcelas a serem pagas para aquele contrato, com base no
 número de meses desejado.
@@ -11,16 +13,16 @@ parcelamento do contrato, e daí gerar os registros de parcelas a serem pagas (d
 sendo a primeira parcela a ser paga um mês após a data do contrato, a segunda parcela dois
 meses após o contrato e assim por diante. Mostrar os dados das parcelas na tela.
 
-#Calculations (1% monthly simple interest + 2% payment fee):
+## Calculations (1% monthly simple interest + 2% payment fee):
 
-#Quota *1
+### Quota #1
 200 + 1% * 1 = 202
 202 + 2% = 206.04
 
-#Quota *2
+### Quota #2
 200 + 1% * 2 = 204
 204 + 2% = 208.08
 
-#Quota *3
+### Quota #3
 200 + 1% * 3 = 206
 206 + 2% = 210.12
